@@ -1,0 +1,31 @@
+
+* {
+    background-color: black;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.font-grn {
+    color: lightgreen;
+}
+
+
+.proj-img {
+    height: 200px;
+    width: 90%;
+    margin: 10px;
+}
+
+.card {
+    border: lightgreen 1px solid;
+    background-color: black;
+}
+
+
+.header-bg {
+    background-image: url(../images/binary-code-475664_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
