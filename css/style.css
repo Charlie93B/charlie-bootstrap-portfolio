@@ -1,31 +1,159 @@
-
 * {
-    background-color: black;
+    background-color: black !important;
 }
 
-.bg-black {
-    background-color: black;
+p {
+    padding: 0% !important;
 }
 
-.font-grn {
-    color: lightgreen;
+a {
+    padding: 0% !important;
 }
 
+/* Nav CSS */
 
-.proj-img {
-    height: 200px;
-    width: 90%;
+#n-links a {
+    padding: 5px !important;
     margin: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: green;
 }
 
-.card {
-    border: lightgreen 1px solid;
+#n-links a:hover {
+    border: red 1px solid;
+}
+
+.hamburger {
+    height: 35px;
+    width: 35px;
+    border: 1px solid lightgreen;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger div {
+    width: 20px;
+    height: 1px;
+    margin: 3px;
+    background-color: lightgreen !important;
+}
+
+.hamburger-button {
+    border: none;
     background-color: black;
 }
 
+.logo {
+    color: orange;
+    font-size: 24px;
+}
 
-.header-bg {
+.show {
+    display: flex !important;
+}
+
+/* Hero */
+
+.hero {
     background-image: url(../images/binary-code-475664_960_720.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 35vh;
 }
+
+.hero-text {
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+}
+
+/* About CSS */
+
+.about legend, .about-text {
+    color: lightblue;
+    margin: 5px;
+}
+
+legend {
+    width: auto;
+    margin: 10px;
+}
+
+.about {
+    border: 5px solid lightblue;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Projects CSS */
+
+
+.prj a {
+    height: 200px;
+    border: 5px solid green;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.projects {
+    border: 5px solid yellow;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.projects legend {
+    color: yellow;
+}
+
+
+.prj-1 {
+    background-image: url(../images/02-portfolio-1.jpg);
+}
+
+.prj-2 {
+    background-image: url(../images/02-portfolio-2.jpg);
+}
+
+.prj-3 {
+    background-image: url(../images/02-portfolio-3.jpg);
+}
+
+.prj-4 {
+    background-image: url(../images/02-portfolio-4.jpg);
+}
+
+.prj-5 {
+    background-image: url(../images/02-run-buddy.jpg);
+}
+
+.prj a h4 {
+    border: 5px solid green;
+    color: green;
+    margin-left: 5px;
+}
+
+.prj a:hover {
+    opacity: 0.7;
+}
+
+/* Contact CSS */
+
+.contact {
+    border: 5px solid red;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.contact legend {
+    color: red;
+}
+
+.contact-links a, .contact-links p {
+    color: red;
+}
+
